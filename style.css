@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url(../images/counter_bg.JPG);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no repeat;
+	background-size: cover;
+	font-family: Arial, verdana, Helvetica, Sans-serif;
+}
+
+.counter-container{
+	width: 45vw;		
+	height:75vh;
+	margin: 7em auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid white;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+				
+}
+
+.counter{
+		color: white;
+		padding:1rem 2rem;
+}
+
+.counter-value{
+			color: #00a137;
+			font-size: 15em;
+			font-weight: 400;
+			margin: 1rem;
+}
+
+
+button{
+		background-color: rgb(0,38,76);
+		color: white;
+		border-radius: 10px;
+		padding: 10px;
+		border: none;
+		font-size: 70%;
+		cursor: pointer;
+		box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.5);
+		width: 19em;
+}
+
+.add-count{
+		margin: 10px auto 50px;
+		width: 14em;
+}
+@media(max-width:520px){
+	.counter-container{
+		width: 14em; 
+		height:90%;
+	}
+	.counter-value{
+		font-size: 10em;
+		font-weight: 400;
+		margin: 1rem;
+    }
+	button{
+		width: 15em;
+	}
+	.add-count{
+		width: 13em;
+	}
+}
