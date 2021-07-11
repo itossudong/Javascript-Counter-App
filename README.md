@@ -15,12 +15,12 @@ On the other hand, when the **Lower Count button** is clicked on, the counter va
 *Counter's minimum value*
 ![ ](./counter-minimum.jpg)
 
-### Technology Used:
+### Technologies Used:
 - **HTML5** to structure the page.
 - **CSS** for styling and responsiveness.
--**Javascript** to give functionality using addEvenListener and the conditional "if" statement to set the maximum and minimum values.
+- **Javascript** to give functionality using addEvenListener and the conditional "if" statement to set the maximum and minimum values.
 
 ### Links:
-Below is my solution link to the task
+Below is my solution link to the task.
 
 https://itossudong.github.io/Javascript-Counter-App/
