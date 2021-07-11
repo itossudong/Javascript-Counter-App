@@ -5,7 +5,7 @@
 }
 
 body{
-	background: url(../images/counter_bg.JPG);
+	background: url(./counter_bg.JPG);
 	display: flex;
 	justify-content: center;
 	align-items: center;
