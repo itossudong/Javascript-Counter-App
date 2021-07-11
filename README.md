@@ -1,5 +1,5 @@
 # Javascript-Counter-App
-A counter app with a set minimum and maximum values.
+A counter app with set minimum and maximum values.
 
 ## Side Hustle internship: My solution to Task 3.
 
